@@ -3,7 +3,7 @@
  */
 
 $(document).ready(function () {
-    $.get("http://localhost:8080/rss-reset-service/get-feed", function (data) {
+    $.get("https://protected-eyrie-93269.herokuapp.com/get-feed", function (data) {
         if (data == null) {
             console.error("No data received from server.")
             return;
