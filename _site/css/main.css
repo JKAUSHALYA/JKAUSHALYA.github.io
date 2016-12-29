@@ -1,4 +1,16 @@
-#rss-medium { height: 400px; overflow: auto; }
+#rss-feeds { width: inherit; height: 400px; overflow: auto; }
+
+.tiles { overflow: auto; }
+
+.tile { margin: 10px; width: 200px; height: 200px; float: left; border: dashed; }
+
+.tile img { display: block; margin: auto; }
+
+.sub-titles { font-size: x-large; font-style: oblique; }
+
+#linkedin-tile img { margin-top: 25px; }
+
+#github-tile img { margin-top: 25px; }
 
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }

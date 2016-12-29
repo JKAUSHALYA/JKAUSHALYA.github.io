@@ -26,9 +26,40 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-#rss-medium {
+#rss-feeds {
+  width: inherit;
   height: 400px;
   overflow: auto;
+}
+
+.tiles {
+  overflow: auto;
+}
+
+.tile {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  float: left;
+  border: dashed;
+};
+
+.tile img {
+  display: block;
+  margin: auto;
+}
+
+.sub-titles {
+  font-size: x-large;
+  font-style: oblique;
+}
+
+#linkedin-tile img {
+  margin-top: 25px;
+}
+
+#github-tile img {
+  margin-top: 25px;
 }
 
 // Minima also includes a mixin for defining media queries.
